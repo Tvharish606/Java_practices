@@ -1,6 +1,6 @@
 package Java_Pratice;
 
-public class Add_number_only_add
+public class Add_number_only_odd
 {
     public static void main(String[]args)
     {

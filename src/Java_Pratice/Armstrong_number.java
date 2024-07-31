@@ -9,7 +9,7 @@ public class Armstrong_number
          int Strong=0;
          while(a!=0)
          {
-              int num=a%10;
+             int num=a%10;
               Strong=Strong+(num*num*num);
               a=a/10;
          }

@@ -1,5 +1,7 @@
 package Java_Pratice;
 
+import java.util.Arrays;
+
 public class Merge_two_arrays
 {
     public static void main(String[]args)
@@ -19,14 +21,10 @@ public class Merge_two_arrays
             acc[pos]=j;
             pos++;
         }
-
-    for( int k:acc)
-    {
+        Arrays.sort(acc);
+        for( int k:acc)
+        {
         System.out.println(k);
+        }
     }
-    }
-
-
-
-
 }
