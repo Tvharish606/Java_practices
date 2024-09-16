@@ -6,18 +6,16 @@ class get_and_set_data
     {
         return password;
     }
-    public void setpassword(String password)
+    public get_and_set_data(String password)
     {
-        this.password=password;
+       this.password=password;
     }
 }
 public class Enscapulate_the_data
 {
     public static void main(String[]args)
     {
-        get_and_set_data s=new get_and_set_data();
-        System.out.println(s.getpassword());
-        s.setpassword("Harish_606");
+        get_and_set_data s=new get_and_set_data("fan_and_fun");
         System.out.println(s.getpassword());
     }
 }
